@@ -7,7 +7,7 @@ A Minecraft maze generator datapack
 
 ### Author: Ian Huff
 ### Date Modified: 8/26/2023
-### Version: 1.0
+### Version: 1.1
 
 
 
@@ -62,7 +62,7 @@ Fair warning: the algorithm isn't necessarily the fastest option out there- maze
   - Run `/function maze:hide_nodes` to make the block display entities turn invisible.
   - Run `/function maze:show_nodes` to make the block display entities reappear.
     - This function will also update the colors that the nodes display in if you manually added/removed the "start" tag from a node.
-  - Run `/kill @e[type=block_display,tag=maze,tag=node]` to kill all of the block display entities.
+  - Run `/function maze:kill_nodes` to kill all of the block display entities.
     - This should only be done if you won't need to re-generate the maze or create a new layout, as it can't be undone.
 
 
