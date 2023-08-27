@@ -90,4 +90,4 @@ Fair warning: the algorithm isn't necessarily the fastest option out there- maze
 - This implementation does not currently allow for looping paths
   - One way to implement this functionality, which I used for my own use case:
     - Tag all the nodes at the edges of the maze with an "edge" tag
-    - Add the prev_n, prev_e, etc. tags to a random number of non-edge nodes (that do not already have those tags) before the walls are removed in remove_walls.mcfunction
+    - Add the prev_n, prev_e, etc. tags to a random selection of non-edge nodes (that do not already have those tags) before the walls are removed in remove_walls.mcfunction
