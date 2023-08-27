@@ -13,7 +13,7 @@ execute if entity @s[tag=start] run function maze:end_generation
 
 #update the current node
 tag @s remove current
-execute if entity @s[tag=prev_e] at @s positioned ~6 ~ ~ as @e[type=block_display,tag=maze,tag=node,distance=0..1] run tag @s add current
-execute if entity @s[tag=prev_s] at @s positioned ~ ~ ~6 as @e[type=block_display,tag=maze,tag=node,distance=0..1] run tag @s add current
-execute if entity @s[tag=prev_w] at @s positioned ~-6 ~ ~ as @e[type=block_display,tag=maze,tag=node,distance=0..1] run tag @s add current
-execute if entity @s[tag=prev_n] at @s positioned ~ ~ ~-6 as @e[type=block_display,tag=maze,tag=node,distance=0..1] run tag @s add current
+execute if entity @s[tag=prev_e] at @s positioned ~6 ~ ~ as @e[type=block_display,tag=node,distance=0..1] run tag @s add current
+execute if entity @s[tag=prev_s] at @s positioned ~ ~ ~6 as @e[type=block_display,tag=node,distance=0..1] run tag @s add current
+execute if entity @s[tag=prev_w] at @s positioned ~-6 ~ ~ as @e[type=block_display,tag=node,distance=0..1] run tag @s add current
+execute if entity @s[tag=prev_n] at @s positioned ~ ~ ~-6 as @e[type=block_display,tag=node,distance=0..1] run tag @s add current

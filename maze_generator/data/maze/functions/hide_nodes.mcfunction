@@ -7,4 +7,4 @@
 #
 #########################################################
 
-execute at @e[type=minecraft:block_display,tag=maze,tag=node,sort=nearest] run data modify entity @e[type=minecraft:block_display,tag=maze,tag=node,limit=1,sort=nearest] block_state.Name set value "minecraft:air"
+execute as @e[type=minecraft:block_display,tag=node] run data modify entity @s block_state.Name set value "minecraft:air"

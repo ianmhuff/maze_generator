@@ -14,8 +14,8 @@ execute if data storage maze Generating run tellraw @a "There is already a maze 
 execute if data storage maze Generating run return 0
 
 #one-time generation prep
-execute as @e[type=block_display,tag=maze,tag=node] at @s run function maze:reset_node
-tag @e[type=block_display,tag=maze,tag=node,tag=start] add current
+execute as @e[type=block_display,tag=node] at @s run function maze:reset_node
+tag @e[type=block_display,tag=node,tag=start] add current
 
 #set indicator block to indicate that the maze is generating
 data modify storage maze Generating set value 1

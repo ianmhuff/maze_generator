@@ -15,7 +15,7 @@
 tag @s add visited
 
 #if there is at least one neighbor that does not have the "visited" tag, select one and branch to forward
-execute at @s as @e[type=minecraft:block_display,tag=maze,tag=node,tag=!visited,distance=5.5..6.5,sort=random,limit=1] store success storage maze Return int 1 run function maze:forward
+execute at @s as @e[type=minecraft:block_display,tag=node,tag=!visited,distance=5.5..6.5,sort=random,limit=1] store success storage maze Return int 1 run function maze:forward
 
 #if there are no unvisited neighbors and the current node is not the starting node, backtrack to the current node's previous node
-execute at @s unless entity @e[type=minecraft:block_display,tag=maze,tag=node,tag=!visited,distance=5.5..6.5] run function maze:backtrack
+execute at @s unless entity @e[type=minecraft:block_display,tag=node,tag=!visited,distance=5.5..6.5] run function maze:backtrack

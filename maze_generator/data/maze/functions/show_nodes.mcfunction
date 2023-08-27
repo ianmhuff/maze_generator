@@ -9,5 +9,5 @@
 #
 #########################################################
 
-execute as @e[type=minecraft:block_display,tag=maze,tag=node,sort=nearest] at @s run data modify entity @s block_state.Name set value "minecraft:purple_concrete"
-execute as @e[type=minecraft:block_display,tag=maze,tag=node,tag=start,sort=nearest] at @s run data modify entity @s block_state.Name set value "minecraft:lime_concrete"
+execute as @e[type=minecraft:block_display,tag=node,tag=!start] at @s run data modify entity @s block_state.Name set value "minecraft:purple_concrete"
+execute as @e[type=minecraft:block_display,tag=node,tag=start] at @s run data modify entity @s block_state.Name set value "minecraft:lime_concrete"
