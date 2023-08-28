@@ -2,10 +2,14 @@
 # show_nodes.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Makes the block display entites that represent maze nodes visible
-#           The start node will be displayed as lime concrete
-#           All other nodes will be displayed as purple concrete
+# Date Modified: 8/27/2023
+# Run Manually: Yes
+# Execute as: any
+# Command: /function maze:show_nodes
+#
+# Description: Makes the block display entites that represent maze nodes visible
+#              The start node will be displayed as lime concrete
+#              All other nodes will be displayed as purple concrete
 #
 #########################################################
 

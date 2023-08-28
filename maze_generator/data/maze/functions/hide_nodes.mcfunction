@@ -2,8 +2,12 @@
 # hide_nodes.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Makes the block display entites that represent maze nodes invisible
+# Date Modified: 8/27/2023
+# Run Manually: Yes
+# Execute as: any
+# Command: /function maze:hide_nodes
+#
+# Description: Makes the block display entites that represent maze nodes invisible
 #
 #########################################################
 

@@ -2,9 +2,13 @@
 # reset_node.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Restores walls, floors, and air surrounding executing node
-#           Removes tags related to maze generation from executing node
+# Date Modified: 8/27/2023
+# Run Manually: No
+# Execute as: Node @e[type=block_display,tag=node]
+# Command: -
+#
+# Description: Restores walls, floors, and air surrounding executing node
+#              Removes tags related to maze generation from executing node
 #
 #########################################################
 

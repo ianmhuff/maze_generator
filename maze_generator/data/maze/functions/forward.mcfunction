@@ -2,10 +2,14 @@
 # forward.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Executing node is a randomly selected unvisitied neighbor to the current node
-#           Checks the direction of its previous node (the "current" node) and stores it as a tag
-#           Updates current node to itself
+# Date Modified: 8/27/2023
+# Run Manually: No
+# Execute as: Random unvisited neighbor to node with tag "current" @e[type=minecraft:block_display,tag=node,tag=!visited,distance=5.5..6.5,sort=random,limit=1]
+# Command: -
+#
+# Description: Executing node is a randomly selected unvisitied neighbor to the current node
+#              Checks the direction of its previous node (the "current" node) and stores it as a tag
+#              Updates current node to itself
 #
 #########################################################
 

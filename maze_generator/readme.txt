@@ -50,8 +50,9 @@ Instructions:
   - Running the function again after maze generation is complete will erase the existing maze and generate a new layout.
 
 
-4. Show/Hide/Kill nodes
+4. Manage nodes
   - Run /function maze:hide_nodes to make the block display entities turn invisible.
+    - This is purely visual and won't impact the functionality.
   - Run /function maze:show_nodes to make the block display entities reappear.
     - This function will also update the colors that the nodes display in if you manually added/removed the "start" tag from a node.
   - Run /function maze:kill_nodes to kill all of the block display entities.
@@ -62,15 +63,17 @@ Instructions:
 Limitations:
 
 - This pack only works on one maze at a time in a world.
-  - If more than one start node exists at a time in the world, generation will likely break.
-  - This can be worked around be manually adding/removing the "start" tag from the block display entities such that each maze is generated separately.
+  - If more than one start node exists at a time in the world, generation will likely break, and starting generation will erase any existing mazes where node entities are still present.
+  - In order to generate a new separate maze in the same world, the nodes from the existing maze will need to be destroyed.
 
 - Generation may be very slow on mazes with large numbers of nodes.
   - In my testing, a full 21x21 (441 nodes total) node maze takes around 40-50 seconds to complete.
     - Anything larger than this is untested, and there are no guarantees for its performance.
    
-- The width of the hallways (the size of the node grid) is hardcoded
-  - This could be adjusted, but it would require modifying several magic numbers throughout a few separate functions.
+- The width of the hallways (the size of the node grid) is hardcoded.
+  - This could be adjusted, but it would require modifying some magic numbers in a few different functions.
+ 
+- Behavior of nodes in unloaded chunks is completely untested.
 
 
 

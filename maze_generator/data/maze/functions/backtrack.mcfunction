@@ -2,9 +2,13 @@
 # backtrack.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Checks if the executing node is the starting node, and ends generation if it is
-#           Otherwise, updates the current node to be the executing node's previous
+# Date Modified: 8/27/2023
+# Run Manually: No
+# Execute as: Node with tag "current" @e[type=block_display,tag=node,tag=current]
+# Command: -
+#
+# Description: Checks if the executing node is the starting node, and ends generation if it is
+#              Otherwise, updates the current node to be the executing node's previous
 #
 #########################################################
 

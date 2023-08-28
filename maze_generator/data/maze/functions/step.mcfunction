@@ -2,10 +2,14 @@
 # step.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Tags the current node as visited and then decides the current node's "action"
-#           If the current node has at least one unvisited neighbor, visit it by executing maze:forward as a random unvisited neighbor
-#           If the current node has no unvisited neighbors, go back to the current node's previous node by executing maze:backtrack as the neighbor mode
+# Date Modified: 8/27/2023
+# Run Manually: No
+# Execute as: Node with tag "current" @e[type=block_display,tag=node,tag=current]
+# Command: -
+#
+# Description: Tags the current node as visited and then decides the current node's "action"
+#              If the current node has at least one unvisited neighbor, visit it by executing maze:forward as a random unvisited neighbor
+#              If the current node has no unvisited neighbors, go back to the current node's previous node by executing maze:backtrack as the neighbor mode
 #
 #########################################################
 

@@ -2,9 +2,13 @@
 # end_generation.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Removes the walls between each node and its previous node
-#           Removes the data that indicates that a maze is generating
+# Date Modified: 8/27/2023
+# Run Manually: Yes, situationally
+# Execute as: any
+# Command: /function end_generation
+#
+# Description: Removes the walls between each node and its previous node
+#              Removes the data that indicates that a maze is generating
 #
 #########################################################
 

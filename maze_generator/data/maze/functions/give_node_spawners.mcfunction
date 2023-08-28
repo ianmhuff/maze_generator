@@ -2,8 +2,12 @@
 # give_node_spawners.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Gives the executing player spawn eggs that spawn a start node and regular nodes
+# Date Modified: 8/27/2023
+# Run Manually: Yes
+# Execute as: player
+# Command: /function maze:give_node_spawners
+#
+# Description: Gives the executing player spawn eggs that spawn a start node and regular nodes
 #
 #########################################################
 

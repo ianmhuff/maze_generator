@@ -2,9 +2,13 @@
 # tick.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Replaces temporary block display entities spawned from spawn eggs with ones that are properly aligned
-#           Runs maze:step every tick while the data set by maze:start_generation exists
+# Date Modified: 8/27/2023
+# Run Manually: No
+# Execute as: any
+# Command: -
+#
+# Description: Replaces temporary block display entities spawned from spawn eggs with ones that are properly aligned
+#              Runs maze:step every tick while the data set by maze:start_generation exists
 #
 #########################################################
 

@@ -2,10 +2,14 @@
 # start_generation.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/26/2023
-# Function: Checks if a maze is already generating, and aborts if it is
-#           Cleans up any existing maze features and rebuilds walls and floor
-#           Sets data to indicate that a maze is now generating
+# Date Modified: 8/27/2023
+# Run Manually: Yes
+# Execute as: any
+# Command: /function maze:start_generation
+#
+# Description: Checks if a maze is already generating, and aborts if it is
+#              Cleans up any existing maze features and rebuilds walls and floor
+#              Sets data to indicate that a maze is now generating
 #
 #########################################################
 
