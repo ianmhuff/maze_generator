@@ -63,6 +63,8 @@ Fair warning: the algorithm isn't necessarily the fastest option out there- maze
     - This is purely visual and won't impact the functionality.
   - Run `/function maze:show_nodes` to make the block display entities reappear.
     - This function will also update the colors that the nodes display in if you manually added/removed the "start" tag from a node.
+  - Run `/function maze:kill_nearest_node` to destroy the node closest to you.
+    - This is useful if you place a node in the wrong location.
   - Run `/function maze:kill_nodes` to kill all of the block display entities.
     - This should only be done if you won't need to re-generate the maze or create a new layout, as it can't be undone.
 
