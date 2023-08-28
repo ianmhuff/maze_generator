@@ -4,8 +4,8 @@
 # Author: Ian Huff
 # Date Modified: 8/27/2023
 # Run Manually: Yes
-# Execute as: any
-# Command: /function maze:kill_nodes
+# Execute as: player
+# Command: /function maze:kill_nearest_node
 #
 # Description: Kills the block display entity that represents the maze node nearest the executor
 #
