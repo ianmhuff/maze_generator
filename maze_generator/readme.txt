@@ -34,6 +34,7 @@ Instructions:
   - There must be exactly one start node.
   - Nodes must be placed exactly 6 blocks apart (i.e. 5 blocks between each pair of nodes).
     - Nodes must all be aligned exactly correctly on the "grid" relative to one another.
+    - If you misplace a node, stand close to it and run /function maze:kill_nearest_node.
   - You don't necessarily need to fill in every space on the grid.
     - Nodes that are not grid-adjacent to at least one other node won't be included in the maze.
     - For example, the following are representations of valid layouts (o = start node):
@@ -48,6 +49,8 @@ Instructions:
   - Messages will be printed to notify you at the start and end of maze generation.
   - Note that the nodes will clear their surroundings in order to produce the maze.
   - Running the function again after maze generation is complete will erase the existing maze and generate a new layout.
+  - If generation appears to be "stuck" (i.e. taking longer than expected or otherwise unresponsive) or if you wish to end generation early, run /function maze:end_generation to manually end maze generation.
+    - You should then be able to run /function maze:start_generation again with correct behavior.
 
 
 4. Manage nodes
