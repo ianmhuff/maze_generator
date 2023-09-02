@@ -6,7 +6,7 @@ A Minecraft maze generator datapack
 # Maze Generator
 
 ### Author: Ian Huff
-### Date Modified: 8/27/2023
+### Date Modified: 9/2/2023
 ### Version: 1.2
 
 
