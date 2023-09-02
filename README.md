@@ -54,7 +54,7 @@ Fair warning: the algorithm isn't necessarily the fastest option out there- maze
   - Note that the nodes will clear their surroundings in order to produce the maze.
   - Running the function again after maze generation is complete will erase the existing maze and generate a new layout.
   - If generation appears to be "stuck" (i.e. taking longer than expected or otherwise unresponsive) or if you wish to end generation early, run `/function maze:end_generation` to manually end maze generation.
-    - You should then be able to run `/function maze:start_generation` again with correct behavior.
+    - You should then be able to run `/function maze:start_generation` again for the correct behavior.
 
 ![2023-08-27_16 39 59](https://github.com/ianmhuff/maze_generator/assets/16975437/619b3135-b83b-446c-8dae-eea9e46a0901)
 ![2023-08-27_16 39 54](https://github.com/ianmhuff/maze_generator/assets/16975437/f3fec977-6836-4b54-af46-914d5bf71b27)
