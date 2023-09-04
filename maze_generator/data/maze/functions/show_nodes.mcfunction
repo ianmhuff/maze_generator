@@ -2,7 +2,7 @@
 # show_nodes.mcfunction
 #
 # Author: Ian Huff
-# Date Modified: 8/27/2023
+# Date Modified: 9/4/2023
 # Run Manually: Yes
 # Execute as: any
 # Command: /function maze:show_nodes
@@ -13,5 +13,5 @@
 #
 #########################################################
 
-execute as @e[type=minecraft:block_display,tag=node,tag=!start] at @s run data modify entity @s block_state.Name set value "minecraft:purple_concrete"
-execute as @e[type=minecraft:block_display,tag=node,tag=start] at @s run data modify entity @s block_state.Name set value "minecraft:lime_concrete"
+execute as @e[type=minecraft:block_display,tag=node,tag=!start] run data modify entity @s block_state.Name set value "minecraft:purple_concrete"
+execute as @e[type=minecraft:block_display,tag=node,tag=start] run data modify entity @s block_state.Name set value "minecraft:lime_concrete"
