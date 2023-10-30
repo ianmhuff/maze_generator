@@ -79,14 +79,14 @@ Note: this guide assumes you know how to add the datapack to your world. For hel
 
 - This pack only works on one maze at a time in a world.
   - If more than one start node exists at a time in the world, generation will likely break, and starting generation will erase any existing mazes where node entities are still present.
-  - In order to generate a new separate maze in the same world, the nodes from the existing maze will need to be destroyed.
+  - In order to generate a new, separate maze in the same world, the nodes from the existing maze will need to be destroyed.
 
 - Generation may be very slow on mazes with large numbers of nodes.
   - In my testing, a full 21x21 (441 nodes total) node maze takes around 40-50 seconds to complete.
     - Anything larger than this is untested, and there are no guarantees for its performance.
    
 - The width of the hallways (the size of the node grid) is hardcoded.
-  - This could be adjusted, but it would require modifying some magic numbers in a few different functions.
+  - This could be adjusted, but it would require modifying some "magic numbers" in a few different functions.
  
 - Behavior of nodes in unloaded chunks is completely untested.
 
