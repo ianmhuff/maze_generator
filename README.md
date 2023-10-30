@@ -21,11 +21,13 @@ The core functionality of my pack ended up being modular and expandable enough t
 The pack uses a depth-first search algorithm to explore nodes, which are represented by block display entities, to generate a maze with no loops.
 Each node keeps track of its "previous" node via a tag that is applied when the node is visited.
 This allows the algorithm to backtrack when it runs out of unvisited neighbors, and it is also how the pack decides which walls to remove once the algorithm is done running.
-Fair warning: the algorithm isn't necessarily the fastest option out there- mazes with large node counts will likely see a not-insignificant delay as the algorithm runs.
+It is worth noting that the algorithm isn't necessarily the fastest option out there- mazes with large node counts will likely see a significant delay as the algorithm runs.
 
 
 
 ## Instructions:
+
+Note: this guide assumes you know how to add the datapack to your world. For help with installation, visit https://minecraft.wiki/w/Tutorials/Installing_a_data_pack
 
 ### 1. Run `/function maze:give_node_spawners`
   - This function will give you two spawn eggs, which are used to place the nodes.
